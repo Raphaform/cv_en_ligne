@@ -1,0 +1,75 @@
+/* PHONE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+    body {
+        background-color: #FDF6F0;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-family: 'Intro Demo', sans-serif;
+        font-weight: 800;
+    }
+    h3 {
+        font-family: 'GlacialIndifference-Bold', sans-serif;
+    }
+    h4 {
+        font-family: 'TT Chocolates Trial Medium', sans-serif;
+        font-size: 0.9rem;
+    }
+
+    #banniere_raphabrik {
+        position: relative;
+        width: 100%;
+        height: 20rem;
+        background-color: black;
+    }
+
+    #banniere_raphabrik img {
+        display: block;
+        margin: auto;
+        padding-top: 1%;
+    }
+
+    #desktop_nav{
+        display: none;
+    }
+    #mailto_raphabrik{
+        display: none;
+    }
+
+    #phone_nav{
+        list-style-type: none
+        
+    }
+    #phone_nav{
+        padding: 0;
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        background-color: black;
+        justify-content: space-evenly;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    #phone_nav li{
+        width: calc(100%/3);
+        margin: auto;
+    }
+    #phone_nav img{
+        display: block;
+width: 25%;
+margin: auto;
+    }
+
+    nav{
+        position: sticky;
+        bottom: 0px;
+    }
+}
+
+/* TABLET
+@media screen and(min-witdh:768px)and(max-witdh:1023px) {}
+
+
+
+/* DESKTOP */
+/* @media screen and(min-witdh:1024px) {} */
