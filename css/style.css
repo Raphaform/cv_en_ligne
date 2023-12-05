@@ -4,16 +4,23 @@
         background-color: #FDF6F0;
         overflow-x: hidden;
     }
+
     h1 {
         font-family: 'Intro Demo', sans-serif;
         font-weight: 800;
     }
+
     h3 {
         font-family: 'GlacialIndifference-Bold', sans-serif;
     }
+
     h4 {
         font-family: 'TT Chocolates Trial Medium', sans-serif;
         font-size: 0.9rem;
+    }
+
+    header {
+        z-index: 1;
     }
 
     #banniere_raphabrik {
@@ -29,19 +36,22 @@
         padding-top: 1%;
     }
 
-    #desktop_nav{
-        display: none;
-    }
-    #mailto_raphabrik{
+    #desktop_nav {
         display: none;
     }
 
-    #phone_nav{
-        list-style-type: none
-        
+    #mailto_raphabrik {
+        display: none;
     }
-    #phone_nav{
+
+    #phone_nav {
+        list-style-type: none;
+    }
+
+    #phone_nav,
+    #close_bar {
         padding: 0;
+        margin: 0;
         display: flex;
         width: 100%;
         height: 10rem;
@@ -50,20 +60,80 @@
         border-radius: 50px 50px 0px 0px;
     }
 
-    #phone_nav li{
+    #phone_nav li {
         width: calc(100%/3);
         margin: auto;
     }
-    #phone_nav img{
+
+    #phone_nav img {
         display: block;
-width: 25%;
-margin: auto;
+        width: 25%;
+        margin: auto;
     }
 
-    nav{
-        position: sticky;
+    nav {
+        width: 100%;
+        position: fixed;
         bottom: 0px;
+        margin: 0;
     }
+
+    #menu_burger {
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        background-color: #FDF6F0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    #competences,
+    #portfolio,
+    #parcours {
+        height: calc(100%/3);
+        display: flex;
+        height: calc(100%/3);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu_burger h1{
+        font-size: 5rem;
+    }
+
+    #menu_burger li {
+        position: relative;
+    }
+
+    #menu_burger a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+
+    #close_bar {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+#portfolio{
+    background-color: black;
+}
+#white_font{
+    color: #FDF6F0;
+}
+
+
+
+
+
 }
 
 /* TABLET
