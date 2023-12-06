@@ -78,8 +78,13 @@
         margin: 0;
     }
 
+
     #overlay_burger{
-        display: block;
+        display: none;
+    }
+
+    .closeNav{
+        display: block !important;
     }
 
     #menu_burger {
