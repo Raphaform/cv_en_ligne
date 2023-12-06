@@ -78,6 +78,10 @@
         margin: 0;
     }
 
+    #overlay_burger{
+        display: block;
+    }
+
     #menu_burger {
         display: flex;
         list-style-type: none;
@@ -100,7 +104,7 @@
         justify-content: center;
     }
 
-    #menu_burger h1{
+    #menu_burger h1 {
         font-size: 5rem;
     }
 
@@ -109,6 +113,7 @@
     }
 
     #menu_burger a {
+        text-decoration: none;
         width: 100%;
         height: 100%;
         display: block;
@@ -117,18 +122,25 @@
     }
 
     #close_bar {
+        z-index: 1;
         display: flex;
         align-content: center;
         justify-content: center;
         flex-wrap: wrap;
     }
 
-#portfolio{
-    background-color: black;
-}
-#white_font{
-    color: #FDF6F0;
-}
+    #portfolio {
+        background-color: black;
+    }
+
+    .white_font {
+        color: #FDF6F0;
+    }
+
+    .black_font {
+        color: black;
+    }
+
 
 
 
