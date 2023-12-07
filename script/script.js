@@ -12,5 +12,8 @@
             });
         })
     
+        var tech1 = document.getElementById("technique_part1")
+        var tech2 = document.getElementById("technique_part2")
+        var tech3 = document.getElementById("technique_part3")
     
 
