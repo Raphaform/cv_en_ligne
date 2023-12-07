@@ -17,11 +17,12 @@
 
     h3 {
         font-family: 'GlacialIndifference-Bold', sans-serif;
+        font-size: 2.3rem;
     }
 
     h4 {
         font-family: 'TT Chocolates Trial Medium', sans-serif;
-        font-size: 0.9rem;
+        font-size: 1.9rem;
     }
 
     header {
@@ -324,17 +325,66 @@
     /* PROFIL */
     /* COMPETENCES */
 
+    #competences_cv{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
 /* SLIDE */
 
+.technique_div{
+    margin-top: 5%;
+    width: 15rem;
+    height: 15rem;
+}
+.technique_div img{
+    width: 100%;
+}
 
 
+#technique_part1,#technique_part2,#technique_part3{
+    margin-right: auto;
+    margin-left: auto;
+    width: 64%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-bottom: 10%;
+}
 
 /* SLIDE */
 
 
     /* COMPETENCES */
 
+    #h1_competences{
+        width: 100%;
+        color: #FDF6F0;
+        background-color: black;
+        font-size: 3rem;
+        display: inline-block;
+        text-align: center;
+        padding: 13px;
+        margin-bottom: 20%;
+    }
 
+    .titre_techniques{
+        display: flex;
+        justify-content: center;
+    }
+
+    #savoir_faire h3{
+        font-family: 'Intro Demo', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 900;
+    }
+    #savoir_faire{
+margin-bottom: 20%;
+    }
 
 
 
