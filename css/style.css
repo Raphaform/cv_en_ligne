@@ -1,5 +1,5 @@
 /* PHONE */
-@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 767px) { */
     body {
         background-color: #FDF6F0;
         overflow-x: hidden;
@@ -491,12 +491,23 @@ footer hr{
     margin-bottom: 0%;
 }
 
-}
 
-/* TABLET
-@media screen and(min-witdh:768px)and(max-witdh:1023px) {}
+
+/* TABLET*/
+
+@media screen and(min-witdh:768px)and(max-witdh:1023px) {
+    #phone_nav{
+        display: none;
+    }
+}
 
 
 
 /* DESKTOP */
-/* @media screen and(min-witdh:1024px) {} */
+@media screen and(min-witdh:1024px) {
+    #phone_nav{
+        display: none;
+    }
+
+    
+}
