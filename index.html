@@ -46,7 +46,7 @@
                         <!-- <img src="./img/burger_icon.svg" alt="Menu du site Raphabrik"> -->
                     </a>
                 </li>
-                <li>
+                <li id="open_msg" onclick="open_overlay_msg()">
                     <a href="#">
                         <img src="./img/mail_icon.svg" alt="Envoyer un mail à Raphabrik">
                     </a>
@@ -100,6 +100,26 @@
         </div>
 
 
+        <div id="overlay_msg">
+            <div id="contacter_mail">
+                <a href="mailto:raphael.greca@hotmail.fr" id="lienmail">
+                    <h1>
+                        M'ENVOYER UN MAIL
+                    </h1>
+                </a>
+            </div>
+            <div id="contacter_tel">
+                <a href="tel:0667435510" id="lientel">
+                    <h1>
+                        ME CONTACTER PAR TÉLÉPHONE
+                    </h1>
+                </a>
+            </div>
+        </div>
+
+        <div id="tel_background">
+        </div>
+
         <section id="profil_raphael_greca">
             <div id="raphael_greca">
                 <h1>RAPHAËL GRECA</h1>
@@ -129,7 +149,7 @@
                         </div>
                         <div>
                             <h2 class="metiers_titre">
-                                PHOTOGRAPHE
+                                MONTEUR PHOTO
                             </h2>
                         </div>
                     </div>
@@ -467,7 +487,7 @@
             </div>
         </section>
 
-        <section id="portfolio_section" >
+        <section id="portfolio_section">
             <!-- A perfectionner / refaire -->
             <div>
                 <h1 class="titre_full">
