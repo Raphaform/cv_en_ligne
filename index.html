@@ -1,16 +1,582 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>CV Raphaël</title>
-
     <link rel="stylesheet" href="./css/normalise.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
 <body>
-    
+
+    <header>
+        <div id="banniere_raphabrik">
+            <img src="./img/logo_W.png" alt="Raphabrik">
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <nav>
+            <ul id="desktop_nav">
+                <li>ACCUEIL</li>
+                <li>COMPÉTENCES</li>
+                <li>PARCOURS</li>
+                <li>PORTFOLIO</li>
+            </ul>
+
+            <ul id="phone_nav">
+                <li>
+                    <a href="#">
+                        <img src="./img/home_icon.svg" alt="Accueil du site Raphabrik">
+                    </a>
+                </li>
+                <li id="open_burger">
+                    <a href="#">
+                        <div id="fullburger">
+                            <div class="burgericon barre_top"></div>
+                            <div class="burgericon barre_middle"></div>
+                            <div class="burgericon barre_bottom"></div>
+                        </div>
+
+                        <!-- <img src="./img/burger_icon.svg" alt="Menu du site Raphabrik"> -->
+                    </a>
+                </li>
+                <li id="open_msg" onclick="open_overlay_msg()">
+                    <a href="#">
+                        <img src="./img/mail_icon.svg" alt="Envoyer un mail à Raphabrik">
+                    </a>
+                </li>
+            </ul>
+
+
+
+            <div id="mailto_raphabrik">
+                <a href="mailto:raphael.greca@hotmail.fr" target="_blank">
+                    <img src="./img/mailto.svg" alt="Me contacter par mail">
+                </a>
+            </div>
+        </nav>
+
+
+        <div id="overlay_burger">
+
+            <div id="menu_burger">
+
+                <li id="competences">
+                    <div>
+                        <a href="#">
+                            <h1 class="black_font">
+                                COMPÉTENCES
+                            </h1>
+                        </a>
+                    </div>
+                </li>
+
+                <li id="portfolio">
+                    <div>
+                        <a href="#">
+                            <h1 class="white_font">
+                                PORTFOLIO
+                            </h1>
+                        </a>
+                    </div>
+                </li>
+
+                <li id="parcours">
+                    <div>
+                        <a href="#">
+                            <h1 class="black_font">
+                                PARCOURS
+                            </h1>
+                        </a>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+
+        <div id="overlay_msg">
+            <div id="contacter_mail">
+                <a href="mailto:raphael.greca@hotmail.fr" id="lienmail">
+                    <h1>
+                        M'ENVOYER UN MAIL
+                    </h1>
+                </a>
+            </div>
+            <div id="contacter_tel">
+                <a href="tel:0667435510" id="lientel">
+                    <h1>
+                        ME CONTACTER PAR TÉLÉPHONE
+                    </h1>
+                </a>
+            </div>
+        </div>
+
+        <div id="tel_background">
+        </div>
+
+        <section id="profil_raphael_greca">
+            <div id="raphael_greca">
+                <h1>RAPHAËL GRECA</h1>
+            </div>
+
+            <div>
+                <div id="photo_metiers">
+                    <div id="photo_profil">
+                        <img src="./img/photo_cv.jpg" alt="Raphael Greca">
+                    </div>
+
+                    <div id="metiers">
+                        <div>
+                            <h2 class="metiers_titre">
+                                ILLUSTRATEUR
+                            </h2>
+                        </div>
+                        <div>
+                            <h2 class="metiers_titre">
+                                MONTEUR VIDÉO
+                            </h2>
+                        </div>
+                        <div>
+                            <h2 class="metiers_titre">
+                                GRAPHISTE
+                            </h2>
+                        </div>
+                        <div>
+                            <h2 class="metiers_titre">
+                                MONTEUR PHOTO
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <p id="description_profil">
+                            &nbsp; &nbsp; Passionné par le monde de l’image depuis plusieurs années
+                            je suis prêt et motivé
+                            à m’investir dans un projet où je pourrai mettre à profit mes compétences.
+                            <br><br>
+                            &nbsp;&nbsp; Je suis déterminé à accomplir de la meilleure des façons et
+                            le plus efficacement possible
+                            les différentes missions qui me seront confiées.
+                        </p>
+                    </div>
+
+                    <div id="reseaux_liste">
+                        <div>
+                            <a href="mailto:raphael.greca@hotmail.fr" target="_blank">
+                                <img src="./img/mail.png" alt="Envoyez moi un email">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://fr.linkedin.com/in/raphael-greca" target="_blank">
+                                <img src="./img/linkedin.png" alt="Mon Linkedin">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/raph_oui_non_ok/" target="_blank">
+                                <img src="./img/instagram.png" alt="Mon Instagram">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/raphael.greca" target="_blank">
+                                <img src="./img/facebook.png" alt="Mon Facebook">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div id="mon_cv_a_dl">
+                            <a href="./img/cv_raphael_greca.pdf" target="_blank">
+                                <img src="./img/dl_cv.svg" alt="Telechargez mon CV">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div id="dernieres_creations">
+                    <h1 class="titre_section">
+                        DERNIÈRES CRÉATIONS
+                    </h1>
+                </div>
+
+                <div id="liste_images">
+                    <div>
+                        <img src="./img/illustrateur01.png" alt="Illustration personnage style mangas">
+                    </div>
+                    <div>
+                        <img src="./img/graphiste01.png" alt="Image design graphique artistique">
+                    </div>
+                    <div>
+                        <img src="./img/monteur_photo01.png" alt="Montage photo ile flotante">
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div id="voir_plus">
+                    <a href="#">
+                        <img src="./img/voir plus.svg" alt="Voir plus d'images">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences_cv">
+            <div class="competences_titre">
+                <h1 id="h1_competences">
+                    COMPÉTENCES
+                </h1>
+            </div>
+
+            <div>
+
+                <div class="titre_techniques">
+                    <h1 class="titre_section">
+                        TECHNIQUES
+                    </h1>
+                </div>
+
+                <div id="toutes_technique">
+
+                    <div class="technique_part1">
+
+                        <div class="technique_div">
+                            <img src="./img/photoshop.png" alt="logo photoshop">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/premiere-pro.png" alt="logo premiere pro">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/after-effects.png" alt="logo after effects">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/illustrator.png" alt="logo illustrator">
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="technique_part2">
+
+                        <div class="technique_div">
+                            <img src="./img/procreate.png" alt="logo procreate">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/camera.png" alt="appareil photo">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/video-editor.png" alt="montage video">
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="technique_part3">
+
+                        <div class="technique_div">
+                            <img src="./img/html-5.png" alt="logo html 5">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/css-3.png" alt="logo css 3">
+                        </div>
+
+                        <div class="technique_div">
+                            <img src="./img/figma.png" alt="logo figma">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div>
+                <div>
+                    <div class="titre_techniques">
+                        <h1 class="titre_section">
+                            SAVOIR ETRE
+                        </h1>
+                    </div>
+                    <div id="savoir_faire">
+                        <h3>
+                            Autonomie
+                        </h3>
+                        <h3>
+                            Travail sous pression
+                        </h3>
+                        <h3>
+                            Gestion du stress
+                        </h3>
+                        <h3>
+                            Curiosité
+                        </h3>
+                        <h3>
+                            Respect des deadlines
+                        </h3>
+                        <h3>
+                            Créativité
+                        </h3>
+                        <h3>
+                            Travail en équipe
+                        </h3>
+                        <h3>
+                            Réactivité
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience_section">
+            <div class="titre_techniques">
+                <h1 class="titre_full">
+                    FORMATIONS
+                </h1>
+            </div>
+            <div>
+                <div class="paragraphe_centre">
+                    <h3 class="date_deco">
+                        2021
+                    </h3>
+                    <h3>
+                        LICENCE ARTS PLASTIQUES
+                    </h3>
+                    <h4>
+                        FLLASH,&nbsp; Valenciennes
+                    </h4>
+                </div>
+                <div class="paragraphe_centre">
+                    <h3 class="date_deco">
+                        2018
+                    </h3>
+                    <h3>
+                        BREVET TECHNICIEN SUPPÉRIEUR
+                    </h3>
+                    <h4>
+                        Jean Rostand,&nbsp; Roubaix
+                    </h4>
+                    <h4>
+                        Option montage
+                    </h4>
+                </div>
+                <!-- pour la deco -->
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="titre_techniques">
+                <h1 class="titre_full">
+                    EXPÉRIENCES
+                </h1>
+            </div>
+
+            <div>
+
+                <div class="paragraphe_centre">
+                    <h3 class="date_deco">
+                        2023
+                    </h3>
+                    <h3>
+                        EMPLOYÉ POLYVALENT NUMÉRIQUE
+                    </h3>
+                    <h4>
+                        AGEVAL,&nbsp; Valenciennes
+                    </h4>
+
+                    <h4>
+                        Web design
+                        Création de sites en HTML+CSS
+                        UX UI design
+                    </h4>
+                </div>
+
+
+                <div class="paragraphe_centre">
+                    <h3 class="date_deco">
+                        Oct - Nov 2022
+                    </h3>
+                    <h3>
+                        EXPOSITION ARTISTIQUE
+                    </h3>
+                    <h4>
+                        Bibliothèque,&nbsp; Hautmont
+                    </h4>
+                    <h4>
+                        Création d'oeuvres
+                        Impressions, mise sous cadre et installation
+                        Accueil des visiteurs et présentation des oeuvres
+                    </h4>
+                </div>
+
+
+                <div class="paragraphe_centre">
+                    <h3 class="date_deco">
+                        2022
+                    </h3>
+                    <h3>
+                        CRÉATION AUTO-ENTREPRISE
+                    </h3>
+                    <h4>
+                        Rapha'Brik,&nbsp; Valenciennes
+                    </h4>
+                    <h4>
+                        Prestations artistiques:
+                        &nbsp;&nbsp; Illustrations, Graphisme, design
+                        Prestations audiovisuelles:
+                        &nbsp;&nbsp;Montages vidéos
+                        &nbsp;&nbsp; Photographies et montages photos
+                    </h4>
+                </div>
+
+
+                <div class="paragraphe_centre">
+                    <h3 class="date_deco">
+                        Août 2021
+                    </h3>
+                    <h3>
+                        CRÉATION ARTISTIQUE
+                    </h3>
+                    <h4>
+                        Fresque murale,&nbsp; Raucourt-au-Bois
+                    </h4>
+                    <h4>
+                        Croquis préparatoires
+                        Etablissement d'un budget
+                        Préparation de la fresque
+                        Encadrement de l'atelier enfants
+                    </h4>
+                </div>
+            </div>
+
+            <!-- DECO -->
+            <div>
+
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+
+            </div>
+        </section>
+
+        <section id="portfolio_section">
+            <!-- A perfectionner / refaire -->
+            <div>
+                <h1 class="titre_full">
+                    PORTFOLIO
+                </h1>
+            </div>
+
+            <div id="portfolio_temp">
+
+                <div>
+                    <img src="./img/image (1).png" alt="Illustration style mangas flash lumineux">
+                </div>
+                <div>
+                    <img src="./img/image (2).png" alt="Illustration couple style mangas">
+                </div>
+                <div>
+                    <img src="./img/image (3).png" alt="Illustration colorée style mangas feu">
+                </div>
+                <div>
+                    <img src="./img/image (4).png" alt="Illustration stylé mangas personnage abimé">
+                </div>
+                <div>
+                    <img src="./img/image (6).png" alt="Photographie claire obscure fleur rouge ">
+                </div>
+                <div>
+                    <img src="./img/image (7).png" alt="illustration portrait noir et blanc">
+                </div>
+                <div>
+                    <img src="./img/image (8).png" alt="Illustration portrait coloré">
+                </div>
+                <div>
+                    <img src="./img/image (10).png" alt="Portrait lumineux effet lumiere rouge">
+                </div>
+                <div>
+                    <img src="./img/horizontale1.png" alt="Montage photo surréel dans l'espace">
+                </div>
+                <div>
+                    <img src="./img/horizontale2.png" alt="Photographie surréel couleur rouge bleu">
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <hr>
+
+        <div>
+            <div id="reseaux_liste">
+                <div>
+                    <a href="mailto:raphael.greca@hotmail.fr" target="_blank">
+                        <img src="./img/mail.png" alt="Envoyez moi un email">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://fr.linkedin.com/in/raphael-greca" target="_blank">
+                        <img src="./img/linkedin.png" alt="Mon Linkedin">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/raph_oui_non_ok/" target="_blank">
+                        <img src="./img/instagram.png" alt="Mon Instagram">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/raphael.greca" target="_blank">
+                        <img src="./img/facebook.png" alt="Mon Facebook">
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <div id="mon_cv_a_dl">
+                    <a href="./img/cv_raphael_greca.pdf" target="_blank">
+                        <img src="./img/dl_cv.svg" alt="Telechargez mon CV">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--  -->
+    <script src="./script/script.js"></script>
+    <!--  -->
 </body>
 
 

@@ -1,0 +1,502 @@
+/* PHONE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+    body {
+        background-color: #FDF6F0;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-family: 'Intro Demo', sans-serif;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-family: 'Intro Demo', sans-serif;
+        font-weight: 800;
+    }
+
+    h3 {
+        font-family: 'GlacialIndifference-Bold', sans-serif;
+        font-size: 2.3rem;
+    }
+
+    h4 {
+        font-family: 'TT Chocolates Trial Medium', sans-serif;
+        font-size: 1.9rem;
+    }
+
+    header {
+        z-index: 1;
+    }
+
+    #banniere_raphabrik {
+        position: relative;
+        width: 100%;
+        height: 20rem;
+        background-color: black;
+    }
+
+    #banniere_raphabrik img {
+        display: block;
+        margin: auto;
+        padding-top: 1%;
+    }
+
+    #desktop_nav {
+        display: none;
+    }
+
+    #mailto_raphabrik {
+        display: none;
+    }
+
+    #phone_nav {
+        z-index: 1;
+        list-style-type: none;
+    }
+
+    #phone_nav,
+    #close_bar {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        background-color: black;
+        justify-content: space-evenly;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    #phone_nav li {
+        width: calc(100%/3);
+        margin: auto;
+    }
+
+    #phone_nav img {
+        display: block;
+        width: 25%;
+        margin: auto;
+    }
+
+    nav {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        margin: 0;
+    }
+
+    .burgericon {
+        transition: all 0.5s;
+        height: 0.5rem;
+        width: 6rem;
+        background-color: white;
+        transform-origin: 23% 50%;
+    }
+
+    @-webkit-keyframes slide-in-bottom {
+        0% {
+            -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-in-bottom {
+        0% {
+            -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+
+    #fullburger {
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #overlay_burger {
+        display: none;
+    }
+
+    .closeNav {
+        display: block !important;
+    }
+
+    .burger_open .barre_top {
+        transform: rotate(45deg);
+    }
+
+    .burger_open .barre_middle {
+        display: none;
+    }
+
+    .burger_open .barre_bottom {
+        transform: rotate(-45deg);
+    }
+
+
+    #menu_burger {
+        -webkit-animation: slide-in-bottom 0.5s cubic-bezier(.24, 1.04, .14, .96) both;
+        animation: slide-in-bottom 0.5s cubic-bezier(.24, 1.04, .14, .96) both;
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 91.5%;
+        background-color: #FDF6F0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+
+    .overlay_msg{
+        left: 7%;
+        margin: auto;
+        width: 87%;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .tel_background{
+        display: block;
+        top: 0%;
+        position: fixed;
+        width: 100%;
+        height: 123rem;
+        backdrop-filter: blur(10px);
+    }
+
+
+    .contacter_mail,.contacter_tel{
+        font-family: 'Intro Demo', sans-serif;
+        font-weight: 800;
+        font-size: 2.5rem;
+        padding: 5%;
+        background-color: white;
+        border: 10px solid black;
+    }
+    .contacter_mail a,.contacter_tel a{
+        color: black;
+        text-decoration: none;
+    }
+    .contacter_mail a,.contacter_tel a{
+        color: black;
+        text-decoration: none;
+    }
+
+    #lienmail,#lientel{
+        display: none;
+    }
+    .lienmail,.lientel{
+        display: block !important;
+    }
+
+
+    #competences,
+    #portfolio,
+    #parcours {
+        height: calc(100%/3);
+        display: flex;
+        height: calc(100%/3);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu_burger h1 {
+        font-size: 5rem;
+    }
+
+    #menu_burger li {
+        position: relative;
+    }
+
+    #menu_burger a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+
+    #close_bar {
+        z-index: 1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #portfolio {
+        background-color: black;
+    }
+
+    .white_font {
+        color: #FDF6F0;
+    }
+
+    .black_font {
+        color: black;
+    }
+
+    /* PROFIL */
+    #profil_raphael_greca {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    #raphael_greca {
+        height: 6rem;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    #raphael_greca h1 {
+        color: #FDF6F0;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #photo_metiers {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #photo_profil {
+        width: 50%;
+
+    }
+
+    #photo_profil img {
+        width: 100%;
+    }
+
+    #metiers {
+        height: 24rem;
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .metiers_titre {
+        font-size: 2rem;
+        display: inline;
+        color: #FDF6F0;
+        background-color: black;
+        padding: 13px;
+    }
+
+    #description_profil {
+        font-family: 'TT Chocolates Trial Medium', sans-serif;
+        font-size: 3rem;
+    }
+
+    #reseaux_liste {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #reseaux_liste div {
+        margin-bottom: 4%;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #reseaux_liste img {
+        width: 100%;
+    }
+
+    #mon_cv_a_dl {
+        margin-bottom: 40%;
+    }
+
+#dernieres_creations,#competences_titre{
+    display: flex;
+    justify-content: center;
+}
+
+    .titre_section{
+        color: #FDF6F0;
+        background-color: black;
+        font-size: 3rem;
+        display: inline-block;
+        text-align: center;
+        padding: 13px;
+    }
+
+#liste_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#liste_images div{
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#voir_plus{
+    margin-bottom: 40%;
+
+}
+    /* PROFIL */
+    /* COMPETENCES */
+
+    #competences_cv{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+/* SLIDE */
+
+.technique_div{
+    margin-top: 5%;
+    width: 15rem;
+    height: 15rem;
+}
+.technique_div img{
+    width: 100%;
+}
+
+
+.technique_part1,.technique_part2,.technique_part3{
+    margin-right: auto;
+    margin-left: auto;
+    width: 64%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-bottom: 10%;
+}
+
+/* SLIDE */
+
+
+    /* COMPETENCES */
+
+    #h1_competences{
+        width: 100%;
+        color: #FDF6F0;
+        background-color: black;
+        font-size: 3rem;
+        display: inline-block;
+        text-align: center;
+        padding: 13px;
+        margin-bottom: 20%;
+    }
+
+    .titre_techniques{
+        display: flex;
+        justify-content: center;
+    }
+
+    #savoir_faire h3{
+        font-family: 'Intro Demo', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 900;
+    }
+    #savoir_faire{
+margin-bottom: 20%;
+    }
+
+#experience_section{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+    
+}
+
+.paragraphe_centre{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.date_deco{
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin: 2%;
+}
+
+
+.titre_full{
+    width: 100%;
+    color: #FDF6F0;
+    background-color: black;
+    font-size: 3rem;
+    display: inline-block;
+    text-align: center;
+    padding: 13px;
+    margin-bottom: 20%;
+}
+
+#portfolio_section{
+    width: 90%;
+    margin: auto;
+}
+
+#portfolio_temp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portfolio_temp div{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+footer hr{
+    border: 4px solid rgb(255, 255, 255);
+    margin-bottom: 0%;
+}
+
+}
+
+/* TABLET
+@media screen and(min-witdh:768px)and(max-witdh:1023px) {}
+
+
+
+/* DESKTOP */
+/* @media screen and(min-witdh:1024px) {} */
