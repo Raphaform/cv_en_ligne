@@ -29,3 +29,7 @@
         tellink.classList.toggle('lientel');
         maillink.classList.toggle('lienmail');
     }
+
+    function close_overlay(){
+        document.getElementsByClassName("tel_background").style.display = "none";
+    }
