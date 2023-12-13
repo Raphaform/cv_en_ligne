@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /* PHONE */
 /* @media only screen and (min-device-width : 320px) and (max-device-width : 767px) { */
     body {
@@ -159,7 +162,7 @@
         width: 100%;
         position: fixed;
         top: 0;
-        height: 91.5%;
+        height: 92.5%;
         background-color: #FDF6F0;
         flex-wrap: nowrap;
         flex-direction: column;
