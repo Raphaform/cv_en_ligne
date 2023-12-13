@@ -30,13 +30,13 @@
             </ul>
 
             <ul id="phone_nav">
-                <li>
-                    <a href="#">
+                <li id="go_home" onclick="close_overlay()">
+                    <a href="#banniere_raphabrik">
                         <img src="./img/home_icon.svg" alt="Accueil du site Raphabrik">
                     </a>
                 </li>
-                <li id="open_burger">
-                    <a href="#">
+                <li id="open_burger" onclick="close_mail()">
+                    <a>
                         <div id="fullburger">
                             <div class="burgericon barre_top"></div>
                             <div class="burgericon barre_middle"></div>
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li id="open_msg" onclick="open_overlay_msg()">
-                    <a href="#">
+                    <a>
                         <img src="./img/mail_icon.svg" alt="Envoyer un mail à Raphabrik">
                     </a>
                 </li>
@@ -67,9 +67,9 @@
 
             <div id="menu_burger">
 
-                <li id="competences">
+                <li id="competences" onclick="close_overlay()">
                     <div>
-                        <a href="#">
+                        <a href="#competences_cv">
                             <h1 class="black_font">
                                 COMPÉTENCES
                             </h1>
@@ -77,21 +77,21 @@
                     </div>
                 </li>
 
-                <li id="portfolio">
+                <li id="portfolio" onclick="close_overlay()">
                     <div>
-                        <a href="#">
+                        <a href="#experience_section">
                             <h1 class="white_font">
-                                PORTFOLIO
+                                PARCOURS
                             </h1>
                         </a>
                     </div>
                 </li>
 
-                <li id="parcours">
+                <li id="parcours" onclick="close_overlay()">
                     <div>
-                        <a href="#">
+                        <a href="#portfolio_section">
                             <h1 class="black_font">
-                                PARCOURS
+                                PORTFOLIO
                             </h1>
                         </a>
                     </div>
@@ -117,7 +117,7 @@
             </div>
         </div>
 
-        <div id="tel_background">
+        <div id="tel_background" onclick="close_overlay()">
         </div>
 
         <section id="profil_raphael_greca">
@@ -223,7 +223,7 @@
 
             <div>
                 <div id="voir_plus">
-                    <a href="#">
+                    <a href="#portfolio_section">
                         <img src="./img/voir plus.svg" alt="Voir plus d'images">
                     </a>
                 </div>
